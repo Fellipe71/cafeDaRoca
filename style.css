@@ -1,0 +1,43 @@
+
+#logo{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: -300px;
+}
+
+#cafe1{
+    width: 120px;
+    height:120px;
+    border-radius: 100px;  
+    position: relative;
+    top: 0px;
+    left: 550px;
+}
+
+#cafe2{
+    width: 120px;
+    height:120px;
+    border-radius: 100px;
+    position: relative;
+    top: 0px;
+    left: 750px;
+}
+
+#cafe3{
+    width: 120px;
+    height:120px;
+    border-radius: 100px;
+    position: relative;
+    top: 0px;
+    left: 950px;
+}
+#informativo{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 80px;
+
+}
