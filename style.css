@@ -3,7 +3,7 @@
     width: 100px;
     height: 80px;
     position: relative;
-    left: -300px;
+    left: 10px;
 }
 
 #cafe1{
@@ -11,8 +11,8 @@
     height:120px;
     border-radius: 100px;  
     position: relative;
-    top: 0px;
-    left: 550px;
+    top: -780px;
+    left: 350px;
 }
 
 #cafe2{
@@ -20,8 +20,8 @@
     height:120px;
     border-radius: 100px;
     position: relative;
-    top: 0px;
-    left: 750px;
+    top: -940px;
+    left: 850px;
 }
 
 #cafe3{
@@ -29,15 +29,51 @@
     height:120px;
     border-radius: 100px;
     position: relative;
-    top: 0px;
-    left: 950px;
+    top: -1100px;
+    left: 1350px;
 }
 #informativo{
     width: 600px;
-    height: 400px;
+    height: 500px;
     background-color: white;
     position: relative;
     top: 50px;
-    left: 80px;
+    left: 80px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
 
+#video{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    top: -750px;
+    left: 1100px;
+}
+
+#div3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: -700px;
+    left: 150px;
+}
+
+#div4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: -860px;
+    left: 670px;
+}
+
+#div5{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: -1020px;
+    left: 1200px;
 }
