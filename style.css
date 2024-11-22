@@ -47,7 +47,7 @@
     width: 600px;
     height: 800px;
     position: relative;
-    top: -800px;
+    top: -720px;
     left: 1100px;
 }
 
@@ -132,4 +132,11 @@ label{
     top: -1130px;
     left: 870px;
     
+}
+
+#resultado{
+    display: flex;
+    position: relative; 
+    top: -1100px;
+    left: 790px;
 }
