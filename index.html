@@ -3,11 +3,12 @@
 <head>
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Café da Roça</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img id="logo" src="img/logo.jpeg">
-    </header>
     <section>
         <article id="informativo">
             <p><h2>O café é uma das bebidas mas consumidas no mundo e tem uma grande importância cultural e social. Feito apartir dos grãos torrados da planta do café, essa bebida é apreciada por seu sabor característico e aroma envolvente.
@@ -16,7 +17,7 @@
             </p>
         </article>
         <article>
-            <video type="video/mp4" id="video" src="https://videos.pexels.com/video-files/852222/852222-hd_1920_1080_30fps.mp4" autoplay ></video>
+            <video type="video/mp4" id="video" src="https://videos.pexels.com/video-files/852222/852222-hd_1920_1080_30fps.mp4" autoplay></video>
         </article>
     </section>
     <section>
@@ -26,7 +27,7 @@
         </article>
         <article>
             <img id="cafe2" src="img/cafe2.jpeg">
-            <div id="div4">Desde a prevenção da doença de Parkinson até a redução da probabilidade<br> de desenvolver diabetes e câncer de cólon</div>
+            <div id="div4">O café expreso ajuda desde a prevenção da doença de Parkinson até a redução<br> da probabilidade de desenvolver diabetes e câncer de cólon</div>
         </article>
         <article>
             <img id="cafe3" src="img/cafe3.jpeg"> 
@@ -34,8 +35,26 @@
         </article>
     </section>
     <section>
-        
+        <article>
+            <div id="txt_img1">https://hubdocafe.cooxupe.com.br</div>
+        </article>
+        <article>
+            <div id="txt_img2">https://www.coxupe.com.br</div>
+        </article>
+        <article>
+            <div id="txt_img3">https://www.unimed.coop.br</div>
+        </article>
     </section>
-
+  
+     <section>
+            <label for="kg">Quilos de café:</label>
+             <input type="number" id="kg" placeholder="Digite a quantidade em kg">
+    
+            <button id="converter">Converter para Dólares</button>
+    
+            <h2 id="resultado"></h2>
+    
+            <script src="script.js"></script>
+        </section>
 </body>
 </html>

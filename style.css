@@ -11,7 +11,7 @@
     height:120px;
     border-radius: 100px;  
     position: relative;
-    top: -780px;
+    top: -920px;
     left: 350px;
 }
 
@@ -20,7 +20,7 @@
     height:120px;
     border-radius: 100px;
     position: relative;
-    top: -940px;
+    top: -1100px;
     left: 850px;
 }
 
@@ -29,7 +29,7 @@
     height:120px;
     border-radius: 100px;
     position: relative;
-    top: -1100px;
+    top: -1300px;
     left: 1350px;
 }
 #informativo{
@@ -47,7 +47,7 @@
     width: 600px;
     height: 800px;
     position: relative;
-    top: -750px;
+    top: -800px;
     left: 1100px;
 }
 
@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    top: -700px;
+    top: -900px;
     left: 150px;
 }
 
@@ -65,7 +65,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    top: -860px;
+    top: -1060px;
     left: 670px;
 }
 
@@ -74,6 +74,62 @@
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1020px;
+    top: -1220px;
     left: 1200px;
+}
+#txt_img1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: -1200px;
+    left: 290px;
+    color: blue;
+}
+
+#txt_img2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: -1218px;
+    left: 825px;
+    color: blue;
+}
+
+#txt_img3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: blue;
+    top: -1235px;
+    left: 1325px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+input, button {
+    padding: 10px;
+    width: 1000 px;
+    display: flex;
+    position: relative;
+    top: -1100px;
+    left: 850px;
+    
+
+}
+label{
+    display: flex;
+    position: relative; 
+    top: -1130px;
+    left: 870px;
+    
 }
