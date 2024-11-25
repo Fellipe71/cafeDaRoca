@@ -7,38 +7,37 @@
 }
 
 #cafe1{
-    width: 120px;
-    height:120px;
+    width: 150px;
+    height:150px;
     border-radius: 100px;  
     position: relative;
-    top: -920px;
-    left: 350px;
+    top: -1200px;
+    left: 320px;
 }
 
 #cafe2{
-    width: 120px;
-    height:120px;
+    width: 150px;
+    height:150px;
     border-radius: 100px;
     position: relative;
-    top: -1100px;
+    top: -1400px;
     left: 850px;
 }
 
 #cafe3{
-    width: 120px;
-    height:120px;
+    width: 150px;
+    height:150px;
     border-radius: 100px;
     position: relative;
-    top: -1300px;
-    left: 1350px;
+    top: -1620px;
+    left: 1400px;
 }
 #informativo{
     width: 600px;
     height: 500px;
-    background-color: white;
     position: relative;
-    top: 50px;
-    left: 80px; 
+    top: -290px;
+    left: 150px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
@@ -47,43 +46,46 @@
     width: 600px;
     height: 800px;
     position: relative;
-    top: -720px;
+    top: -1070px;
     left: 1100px;
 }
 
 #div3{
+    background-color: rgb(179, 179, 179);
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -900px;
-    left: 150px;
+    top: -1150px;
+    left: 175px;
 }
 
 #div4{
+    background-color: rgb(179, 179, 179);
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1060px;
-    left: 670px;
+    top: -1360px;
+    left: 710px;
 }
 
 #div5{
+    background-color: rgb(179, 179, 179);
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1220px;
-    left: 1200px;
+    top: -1580px;
+    left: 1265px;
 }
 #txt_img1{
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1200px;
-    left: 290px;
+    top: -1540px;
+    left: 250px;
     color: blue;
 }
 
@@ -92,8 +94,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1218px;
-    left: 825px;
+    top: -1558px;
+    left: 805px;
     color: blue;
 }
 
@@ -103,8 +105,8 @@
     align-items: center;
     text-align: center;
     color: blue;
-    top: -1235px;
-    left: 1325px;
+    top: -1585px;
+    left: 1355px;
 }
 
 
@@ -114,6 +116,8 @@ body {
     padding: 20px;
     border-radius: 5px;
     max-width: 400px;
+    background-color: green;
+    
 }
 
 input, button {
@@ -121,7 +125,7 @@ input, button {
     width: 1000 px;
     display: flex;
     position: relative;
-    top: -1100px;
+    top: -1650px;
     left: 850px;
     
 
@@ -129,7 +133,7 @@ input, button {
 label{
     display: flex;
     position: relative; 
-    top: -1130px;
+    top: -1680px;
     left: 870px;
     
 }
@@ -137,6 +141,26 @@ label{
 #resultado{
     display: flex;
     position: relative; 
-    top: -1100px;
+    top: -1650px;
     left: 790px;
+}
+
+#qdb1{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    position: relative; 
+    top: -1450px;
+    left: 770px;
+}
+
+#qdb2{
+    width: 750px;
+    height: 350px;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    position: relative; 
+    top: 25px;
+    left: 80px;
 }
