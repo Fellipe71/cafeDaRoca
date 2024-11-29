@@ -1,166 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 #logo{
     width: 100px;
     height: 80px;
-    position: relative;
-    left: 10px;
 }
+
+#informativo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+#apresentacao{
+    background-color: #d1b7a7;
+    display: flex;
+    padding: 10px;
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    width: 800px;
+    height: 600px;
+}
+
+#conteudoInformativo{
+    width: 600px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #cafe1{
     width: 150px;
     height:150px;
     border-radius: 100px;  
-    position: relative;
-    top: -1200px;
-    left: 320px;
+    margin: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+#textoCafe1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #cafe2{
     width: 150px;
     height:150px;
     border-radius: 100px;
-    position: relative;
-    top: -1400px;
-    left: 850px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #cafe3{
     width: 150px;
     height:150px;
     border-radius: 100px;
-    position: relative;
-    top: -1620px;
-    left: 1400px;
-}
-#informativo{
-    width: 600px;
-    height: 500px;
-    position: relative;
-    top: -290px;
-    left: 150px; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
 }
 
-#video{
-    width: 600px;
-    height: 800px;
-    position: relative;
-    top: -1070px;
-    left: 1100px;
-}
 
 #div3{
-    background-color: rgb(179, 179, 179);
-    position: relative;
+    background-color: #d1b7a7;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1150px;
-    left: 175px;
 }
 
 #div4{
-    background-color: rgb(179, 179, 179);
-    position: relative;
+    background-color: #d1b7a7;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1360px;
-    left: 710px;
 }
 
 #div5{
-    background-color: rgb(179, 179, 179);
-    position: relative;
+    background-color: #d1b7a7;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1580px;
-    left: 1265px;
 }
 #txt_img1{
-    position: relative;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1540px;
-    left: 250px;
     color: blue;
 }
 
 #txt_img2{
-    position: relative;
     display: flex;
     align-items: center;
     text-align: center;
-    top: -1558px;
-    left: 805px;
     color: blue;
 }
 
 #txt_img3{
-    position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     color: blue;
-    top: -1585px;
-    left: 1355px;
 }
 
 
-
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 400px;
-    background-color: green;
-    
+    background-color: rgb(235, 235, 235);
 }
 
 input, button {
     padding: 10px;
     width: 1000 px;
     display: flex;
-    position: relative;
-    top: -1650px;
-    left: 850px;
-    
-
-}
-label{
-    display: flex;
-    position: relative; 
-    top: -1680px;
-    left: 870px;
-    
 }
 
 #resultado{
     display: flex;
-    position: relative; 
-    top: -1650px;
-    left: 790px;
-}
-
-#qdb1{
-    width: 350px;
-    height: 250px;
-    background-color: rgb(187, 187, 187);
-    display: flex;
-    position: relative; 
-    top: -1450px;
-    left: 770px;
-}
-
-#qdb2{
-    width: 750px;
-    height: 350px;
-    background-color: rgb(187, 187, 187);
-    display: flex;
-    position: relative; 
-    top: 25px;
-    left: 80px;
 }
